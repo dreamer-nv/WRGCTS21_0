@@ -8,5 +8,10 @@ pipeline {
             setupCommonPipelineEnvironment script: this
         } // steps
     } //stage
+        stage ('Deploy Commit') {
+            steps {
+                gctsDeploy script: this
+            } //steps
+        } // stage
     } //stages
 } //pipeline
