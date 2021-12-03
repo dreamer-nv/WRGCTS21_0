@@ -2,4 +2,4 @@ checkvariant: "PERFORMANCE_CHECKLIST_HDB"
 atcobjects:
   package:
     - name: "ZGCTS_WRGCTS21_0"
-    includesubpackage: false
+      includesubpackage: false
