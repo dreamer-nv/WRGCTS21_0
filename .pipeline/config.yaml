@@ -17,3 +17,8 @@ steps:
     client: '500'
     abapCredentialsId: 'WRGCST21_0'
     repository: 'dreamer-nv-wrgcts21_0' 
+  abapEnvironmentRunATCCheck:
+    abapCredentialsId: 'WRGCST21_0'
+    host: 'gprd.sapds.ru:44300'
+    atcConfig: 'atcconfig.yml'
+    dockerPullImage: false
