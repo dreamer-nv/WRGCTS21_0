@@ -32,7 +32,7 @@ pipeline {
                     abapEnvironmentRunATCCheck script: this
                     def checkstyle = scanForIssues tool: checkStyle(pattern: 'ATCResults.xml')
                     publishIssues issues: [checkstyle], failedTotalAll: 1
-                    if ( currenBuild.result == 'FAILURE' ) {
+                    if ( currentBuild.result == 'FAILURE' ) {
                         echo 'ATC failed!'
                         checks_failed = true
                     } // if
