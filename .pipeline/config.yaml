@@ -5,5 +5,5 @@ steps:
   gctsDeploy:
     host: 'https://gprd.sapds.ru:44300'
     client: '500'
-    abapCredentialsId: 'wrgcts21_0'
+    abapCredentialsId: 'WRGCST21_0'
     repository: 'dreamer-nv-wrgcts21_0'
