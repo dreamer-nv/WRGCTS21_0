@@ -1,0 +1,3 @@
+general:
+  collectTelemetryData: false
+  verbose: true
