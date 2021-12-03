@@ -33,7 +33,7 @@ pipeline {
             } // steps
         } // stage
         stage ('Build success') {
-            when { expression { checks_faled == false } }
+            when { expression { checks_failed == false } }
             steps {
                 echo 'Build success!'
             } // steps
