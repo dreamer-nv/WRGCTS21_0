@@ -27,7 +27,7 @@ pipeline {
             }
         } // stage
         stage ('Rollback Commit') {
-            when { expression { checks_faled == true } }
+            when { expression { checks_failed == true } }
             steps {
                 gctsRollback script: this
             } // steps
